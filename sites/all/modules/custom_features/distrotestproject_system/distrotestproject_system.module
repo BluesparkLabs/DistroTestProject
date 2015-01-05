@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Distro Test Project System feature.
+ */
+
+include_once 'distrotestproject_system.features.inc';

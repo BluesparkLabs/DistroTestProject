@@ -1,0 +1,8 @@
+name = Distro Test Project System features
+description = This feature should be enabled during site installation.
+core = 7.x
+package = Distro Test Project
+version = 7.x-1.0
+project = distrotestproject_system
+dependencies[] = features
+features[features_api][] = api:2
