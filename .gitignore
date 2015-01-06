@@ -1,0 +1,20 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+# In a makefile-based deploy strategy we actually ignore all of drupal
+*.txt
+*.php
+*.config
+includes/
+misc/
+modules/
+profiles/
+scripts/
+themes/
+sites/all/modules/contrib
+sites/all/themes/contrib
+
