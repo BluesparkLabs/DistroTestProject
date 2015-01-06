@@ -18,7 +18,7 @@ Installation
 
     This will download Drupal 7, the DistroTest profile and all of the module and library dependencies.
     
-3. Install the site.
+3. Install the site using the DistroTest intsallation profile:
 
         $ drush site-install distrotest --db-url=mysql://dbuser:pass@localhost:port/dbname
 
