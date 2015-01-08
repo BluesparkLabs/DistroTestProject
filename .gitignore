@@ -6,15 +6,15 @@ sites/*/files
 sites/*/private
 
 # In a makefile-based deploy strategy we actually ignore all of drupal
-*.txt
-*.php
-*.config
-includes/
-misc/
-modules/
-profiles/
-scripts/
-themes/
-sites/all/modules/contrib
-sites/all/themes/contrib
+/*.txt
+/*.php
+/*.config
+/includes/
+/misc/
+/modules/
+/profiles/
+/scripts/
+/themes/
+/sites/all/modules/contrib/
+/sites/all/themes/contrib/
 
