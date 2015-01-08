@@ -40,7 +40,7 @@ own `.info` file.  Instead, add the following line to the `.info` files of your
 custom modules and features so they may be detected and automatically enabled
 during installation:
 
-    distro = distrotest
+    distrotest_enable_on_install = yes
 
 Since you cannot modify contrib modules info files, you should at the very least
 have one custom module or feature that has all of the required contrib modules
@@ -53,7 +53,7 @@ E.g.
     description = System-wide configurations and settings for My Project.
     core = 7.x
     package = My Project
-    distro = distrotest
+    distrotest_enable_on_install = yes
     dependencies[] = contrib_module_name
     dependencies[] = another_contrib_module_name
 
