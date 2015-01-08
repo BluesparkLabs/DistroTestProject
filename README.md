@@ -24,6 +24,10 @@ Installation
 
         $ drush site-install distrotest --db-url=mysql://dbuser:pass@localhost:port/dbname
 
+4. Revert all enabled features.
+
+        $ drush features-revert-all -y
+
 Usage
 =====
 
