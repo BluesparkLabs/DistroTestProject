@@ -15,7 +15,7 @@ Installation
 2. Build the site using Drush make:
 
         $ cd DistroTestProject
-        $ drush make distrotestproject.make
+        $ drush make project.make --working-copy
 
     This will download Drupal 7, the DistroTest profile and all of the module
     and library dependencies.
